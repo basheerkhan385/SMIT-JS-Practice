@@ -43,11 +43,11 @@
 // }
 // Integer(0);
 // To print string character one by one by recursive
-function charName(name , index = 0) {
-    const strLen = name.length
-    if(index >= strLen)  return;
+// function charName(name , index = 0) {
+//     const strLen = name.length
+//     if(index >= strLen)  return;
 
-    console.log(name[index]);
-    return charName(name ,index + 1);
-}
-charName("BASHEER ULLAH");
+//     console.log(name[index]);
+//     return charName(name ,index + 1);
+// }
+// charName("BASHEER ULLAH");
